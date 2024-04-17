@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 export default function WeaponCard({WeaponsArtefactsContainer, WeaponCardImage, WeaponCardAlt, WeaponRarityImage, WeaponRarityAlt, WeaponSubStats, WeaponDescription}: {
     WeaponsArtefactsContainer: string
@@ -11,14 +12,14 @@ export default function WeaponCard({WeaponsArtefactsContainer, WeaponCardImage, 
     return <div className={'best-optional '+WeaponsArtefactsContainer}> 
     <div className="flex-wa">
         <div className="weapons-artefacts-image-container">
-            <img
+            <Image
             loading="lazy"
             src={WeaponCardImage}
             alt={WeaponCardAlt}
             title={WeaponCardAlt}
             />
             <br />
-            <img
+            <Image
             loading="lazy"
             src={WeaponRarityImage}
             alt={WeaponRarityAlt}

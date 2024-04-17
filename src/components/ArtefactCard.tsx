@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 export default function ArtefactCard({WeaponsArtefactsContainer, ArtefactCardImage, ArtefactCardAlt, ArtefactRarityImage, ArtefactRarityAlt, ArtefactSubStats, ArtefactDescription}:{
     
@@ -14,14 +14,14 @@ export default function ArtefactCard({WeaponsArtefactsContainer, ArtefactCardIma
     
     <div className="flex-wa">
         <div className="weapons-artefacts-image-container">
-            <img
+            <Image
             loading="lazy"
             src={ArtefactCardImage}
             alt={ArtefactCardAlt}
             title={ArtefactCardAlt}
             />
             <br />
-            <img
+            <Image
             loading="lazy"
             src={ArtefactRarityImage}
             alt={ArtefactRarityAlt}

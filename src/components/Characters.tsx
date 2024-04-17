@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 function Characters({MainElement, children, characterbackground, EmblemImage, EmblemAlt, WeaponCharacterImage, WeaponCharacterAlt, CharacterName, CharacterFunction, CharacterElement, RarityBackground, Rarity, BuildTitle, BuildDescription, BestWeaponDescription, OtherWeapons, BestArtefactDescription, ArtefactSubAttribute, TalentPriority, TeamsDescription, TeamsCharacterDescription, TeamsTitle}:{
     MainElement: any
@@ -29,7 +29,7 @@ function Characters({MainElement, children, characterbackground, EmblemImage, Em
             
             <section id="section-character" className={MainElement}>
                 <div id="character-background" style={{backgroundImage:characterbackground}}></div>
-                <img id="emblem"
+                <Image id="emblem"
                 src={EmblemImage}
                 alt={EmblemAlt}
                 title={EmblemAlt}
@@ -37,7 +37,7 @@ function Characters({MainElement, children, characterbackground, EmblemImage, Em
                 <div className={MainElement}>
                 </div>
                 <div id="character-name-container">
-                    <img
+                    <Image
                     src={WeaponCharacterImage}
                     alt={WeaponCharacterAlt}
                     title={WeaponCharacterAlt}

@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 import Link from "next/link"
 
@@ -12,7 +12,7 @@ export default function TeamsCard({CharacterTeamName, CharacterUrl, CharacterTea
 }) {
     return <> 
     <Link href={CharacterUrl} className="character-team-card">
-        <img loading="lazy" className={CharacterTeamElement} src={CharacterTeamNameImage} alt={CharacterTeamName} title={CharacterTeamName} />
+        <Image loading="lazy" className={CharacterTeamElement} src={CharacterTeamNameImage} alt={CharacterTeamName} title={CharacterTeamName} />
         <h4>{CharacterTeamName}</h4>
         <p>{CF[id]}</p>
         
