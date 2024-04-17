@@ -1,0 +1,569 @@
+[
+    {
+        "id": 0,
+        "CharacterTeamName" : "Chiori",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Chiori.webp",
+        "CharacterUrl": "/chiori",
+        "CharacterTeamElement": "geo"
+    },
+    {
+        "id": 1,
+        "CharacterTeamName" : "Albedo",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Albedo.webp",
+        "CharacterUrl": "/albedo",
+        "CharacterTeamElement": "geo"
+    },
+    {
+        "id": 2,
+        "CharacterTeamName" : "Alhaitham",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Alhaitham.webp",
+        "CharacterUrl": "/alhaitham",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 3,
+        "CharacterTeamName" : "Aloy",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Aloy.webp",
+        "CharacterUrl": "/aloy",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 4,
+        "CharacterTeamName" : "Amber",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Amber.webp",
+        "CharacterUrl": "/amber",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 5,
+        "CharacterTeamName" : "Andarilho",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Wanderer.webp",
+        "CharacterUrl": "/wanderer",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 6,
+        "CharacterTeamName" : "Itto",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Arataki_Itto.webp",
+        "CharacterUrl": "/arataki-itto",
+        "CharacterTeamElement": "geo"
+    },
+    {
+        "id": 7,
+        "CharacterTeamName" : "Barbara",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Barbara.webp",
+        "CharacterUrl": "/barbara",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 8,
+        "CharacterTeamName" : "Baizhu",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Baizhu.webp",
+        "CharacterUrl": "/baizhu",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 9,
+        "CharacterTeamName" : "Beidou",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Beidou.webp",
+        "CharacterUrl": "/beidou",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 10,
+        "CharacterTeamName" : "Bennett",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Bennett.webp",
+        "CharacterUrl": "/bennett",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 11,
+        "CharacterTeamName" : "Candace",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Candace.webp",
+        "CharacterUrl": "/candace",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 12,
+        "CharacterTeamName" : "Charlotte",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Charlotte.webp",
+        "CharacterUrl": "/charlotte",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 13,
+        "CharacterTeamName" : "Chongyun",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Chongyun.webp",
+        "CharacterUrl": "/chongyun",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 14,
+        "CharacterTeamName" : "Collei",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Collei.webp",
+        "CharacterUrl": "/collei",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 15,
+        "CharacterTeamName" : "Cyno",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Cyno.webp",
+        "CharacterUrl": "/cyno",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 16,
+        "CharacterTeamName" : "Dehya",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Dehya.webp",
+        "CharacterUrl": "/dehya",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 17,
+        "CharacterTeamName" : "Diluc",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Diluc.webp",
+        "CharacterUrl": "/diluc",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 18,
+        "CharacterTeamName" : "Diona",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Diona.webp",
+        "CharacterUrl": "/diona",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 19,
+        "CharacterTeamName" : "Dori",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Dori.webp",
+        "CharacterUrl": "/dori",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 20,
+        "CharacterTeamName" : "Eula",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Eula.webp",
+        "CharacterUrl": "/eula",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 21,
+        "CharacterTeamName" : "Faruzan",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Faruzan.webp",
+        "CharacterUrl": "/faruzan",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 22,
+        "CharacterTeamName" : "Fischl",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Fischl.webp",
+        "CharacterUrl": "/fischl",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 23,
+        "CharacterTeamName" : "Freminet",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Freminet.webp",
+        "CharacterUrl": "/freminet",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 24,
+        "CharacterTeamName" : "Furina",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Furina.webp",
+        "CharacterUrl": "/furina",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 25,
+        "CharacterTeamName" : "Ganyu",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Ganyu.webp",
+        "CharacterUrl": "/ganyu",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 26,
+        "CharacterTeamName" : "Gorou",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Gorou.webp",
+        "CharacterUrl": "/gorou",
+        "CharacterTeamElement": "geo"
+    },
+    {
+        "id": 27,
+        "CharacterTeamName" : "Hu Tao",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Hu_Tao.webp",
+        "CharacterUrl": "/hu-tao",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 28,
+        "CharacterTeamName" : "Jean",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Jean.webp",
+        "CharacterUrl": "/jean",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 29,
+        "CharacterTeamName" : "Kazuha",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kaedehara_Kazuha.webp",
+        "CharacterUrl": "/kaedehara-kazuha",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 30,
+        "CharacterTeamName" : "Kaeya",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kaeya.webp",
+        "CharacterUrl": "/kaeya",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 31,
+        "CharacterTeamName" : "Ayaka",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kamisato_Ayaka.webp",
+        "CharacterUrl": "/kamisato-ayaka",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 32,
+        "CharacterTeamName" : "Ayato",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kamisato_Ayato.webp",
+        "CharacterUrl": "/kamisato-ayato",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 33,
+        "CharacterTeamName" : "Kaveh",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kaveh.webp",
+        "CharacterUrl": "/kaveh",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 34,
+        "CharacterTeamName" : "Keqing",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Keqing.webp",
+        "CharacterUrl": "/keqing",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 35,
+        "CharacterTeamName" : "Kirara",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kirara.webp",
+        "CharacterUrl": "/kirara",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 36,
+        "CharacterTeamName" : "Klee",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Klee.webp",
+        "CharacterUrl": "/klee",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 37,
+        "CharacterTeamName" : "Kujou Sara",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kujou_Sara.webp",
+        "CharacterUrl": "/kujou-sara",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 38,
+        "CharacterTeamName" : "Kuki Shinobu",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Kuki_Shinobu.webp",
+        "CharacterUrl": "/kuki-shinobu",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 39,
+        "CharacterTeamName" : "Layla",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Layla.webp",
+        "CharacterUrl": "/layla",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 40,
+        "CharacterTeamName" : "Lisa",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Lisa.webp",
+        "CharacterUrl": "/lisa",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 41,
+        "CharacterTeamName" : "Lynette",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Lynette.webp",
+        "CharacterUrl": "/lynette",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 42,
+        "CharacterTeamName" : "Lyney",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Lyney.webp",
+        "CharacterUrl": "/lyney",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 43,
+        "CharacterTeamName" : "Mika",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Mika.webp",
+        "CharacterUrl": "/mika",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 44,
+        "CharacterTeamName" : "Mona",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Mona.webp",
+        "CharacterUrl": "/mona",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 45,
+        "CharacterTeamName" : "Nahida",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Nahida.webp",
+        "CharacterUrl": "/nahida",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 46,
+        "CharacterTeamName" : "Neuvillette",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Neuvillette.webp",
+        "CharacterUrl": "/neuvillette",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 47,
+        "CharacterTeamName" : "Nilou",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Nilou.webp",
+        "CharacterUrl": "/nilou",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 48,
+        "CharacterTeamName" : "Ningguang",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Ningguang.webp",
+        "CharacterUrl": "/ningguang",
+        "CharacterTeamElement": "geo"
+    },
+    {
+        "id": 49,
+        "CharacterTeamName" : "Noelle",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Noelle.webp",
+        "CharacterUrl": "/noelle",
+        "CharacterTeamElement": "geo"
+    },
+    {
+        "id": 50,
+        "CharacterTeamName" : "Qiqi",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Qiqi.webp",
+        "CharacterUrl": "/qiqi",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 51,
+        "CharacterTeamName" : "Raiden",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Raiden_Shogun.webp",
+        "CharacterUrl": "/raiden-shogun",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 52,
+        "CharacterTeamName" : "Razor",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Razor.webp",
+        "CharacterUrl": "/razor",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 53,
+        "CharacterTeamName" : "Rosaria",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Rosaria.webp",
+        "CharacterUrl": "/rosaria",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 54,
+        "CharacterTeamName" : "Kokomi",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Sangonomiya_Kokomi.webp",
+        "CharacterUrl": "/sangonomiya-kokomi",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 55,
+        "CharacterTeamName" : "Sayu",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Sayu.webp",
+        "CharacterUrl": "/sayu",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 56,
+        "CharacterTeamName" : "Shenhe",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Shenhe.webp",
+        "CharacterUrl": "/shenhe",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 57,
+        "CharacterTeamName" : "Heizou",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Heizou.webp",
+        "CharacterUrl": "/shikanoin-heizou",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 58,
+        "CharacterTeamName" : "Sucrose",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Sucrose.webp",
+        "CharacterUrl": "/sucrose",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 59,
+        "CharacterTeamName" : "Tartaglia",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Tartaglia.webp",
+        "CharacterUrl": "/tartaglia",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 60,
+        "CharacterTeamName" : "Thoma",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Thoma.webp",
+        "CharacterUrl": "/thoma",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 61,
+        "CharacterTeamName" : "Tighnari",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Tighnari.webp",
+        "CharacterUrl": "/tighnari",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 62,
+        "CharacterTeamName" : "Viajante Anemo",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/TravelerAnemo.webp",
+        "CharacterUrl": "/traveler-anemo",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 63,
+        "CharacterTeamName" : "Viajante Cryo",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Traveler2.webp",
+        "CharacterUrl": "/traveler-cryo",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 64,
+        "CharacterTeamName" : "Viajante Dendro",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Traveler2.webp",
+        "CharacterUrl": "/traveler-dendro",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 65,
+        "CharacterTeamName" : "Viajante Electro",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Traveler2.webp",
+        "CharacterUrl": "/traveler-electro",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 66,
+        "CharacterTeamName" : "Viajante Hydro",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Traveler2.webp",
+        "CharacterUrl": "/traveler-hydro",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 67,
+        "CharacterTeamName" : "Venti",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Venti.webp",
+        "CharacterUrl": "/venti",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 68,
+        "CharacterTeamName" : "Wriothesley",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Wriothesley.webp",
+        "CharacterUrl": "/wriothesley",
+        "CharacterTeamElement": "cryo"
+    },
+    {
+        "id": 69,
+        "CharacterTeamName" : "Xiangling",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Xiangling.webp",
+        "CharacterUrl": "/xiangling",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 70,
+        "CharacterTeamName" : "Xianyun",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Xianyun.webp",
+        "CharacterUrl": "/xianyun",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 71,
+        "CharacterTeamName" : "Xiao",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Xiao.webp",
+        "CharacterUrl": "/xiao",
+        "CharacterTeamElement": "anemo"
+    },
+    {
+        "id": 72,
+        "CharacterTeamName" : "Xingqiu",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Xingqiu.webp",
+        "CharacterUrl": "/xingqiu",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 73,
+        "CharacterTeamName" : "Xinyan",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Xinyan.webp",
+        "CharacterUrl": "/xinyan",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 74,
+        "CharacterTeamName" : "Yae Miko",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Yae_Miko.webp",
+        "CharacterUrl": "/yae-miko",
+        "CharacterTeamElement": "electro"
+    },
+    {
+        "id": 75,
+        "CharacterTeamName" : "Yanfei",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Yanfei.webp",
+        "CharacterUrl": "/yanfei",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 76,
+        "CharacterTeamName" : "Yaoyao",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Yaoyao.webp",
+        "CharacterUrl": "/yaoyao",
+        "CharacterTeamElement": "dendro"
+    },
+    {
+        "id": 77,
+        "CharacterTeamName" : "Yelan",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Yelan.webp",
+        "CharacterUrl": "/yelan",
+        "CharacterTeamElement": "hydro"
+    },
+    {
+        "id": 78,
+        "CharacterTeamName" : "Yoimiya",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Yoimiya.webp",
+        "CharacterUrl": "/yoimiya",
+        "CharacterTeamElement": "pyro"
+    },
+    {
+        "id": 79,
+        "CharacterTeamName" : "Yun Jin",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Yun_Jin.webp",
+        "CharacterUrl": "/yun-jin",
+        "CharacterTeamElement": "geo"
+    },
+    {
+        "id": 80,
+        "CharacterTeamName" : "Zhongli",
+        "CharacterTeamNameImage" : "https://genshinbuild.com/images/Characters/Zhongli.webp",
+        "CharacterUrl": "/zhongli",
+        "CharacterTeamElement": "geo"
+    }
+    ]
