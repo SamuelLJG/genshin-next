@@ -1,41 +1,37 @@
+"use client"
 import Image from "next/image"
 
-export default function ArtefactCard({WeaponsArtefactsContainer, ArtefactCardImage, ArtefactCardAlt, ArtefactRarityImage, ArtefactRarityAlt, ArtefactSubStats, ArtefactDescription}:{
-    
-    WeaponsArtefactsContainer: string
-    ArtefactCardImage: string
-    ArtefactCardAlt: string
-    ArtefactRarityImage: string
-    ArtefactRarityAlt: string
-    ArtefactSubStats: any
-    ArtefactDescription: any
-}) {
-    return <div className={'best-optional '+WeaponsArtefactsContainer}> 
+export default function ArtefactCard(props:any) {
+    return <div className={'best-optional '+props.WeaponsArtefactsContainer}> 
     
     <div className="flex-wa">
         <div className="weapons-artefacts-image-container">
-            <Image
+            <Image quality={1}
+            width={80}
+            height={80}
             loading="lazy"
-            src={ArtefactCardImage}
-            alt={ArtefactCardAlt}
-            title={ArtefactCardAlt}
+            src={props.ArtefactCardImage}
+            alt={props.ArtefactCardAlt}
+            title={props.ArtefactCardAlt}
             />
             <br />
-            <Image
+            <Image 
+            width={80}
+            height={80}
             loading="lazy"
-            src={ArtefactRarityImage}
-            alt={ArtefactRarityAlt}
-            title={ArtefactRarityAlt}
+            src={props.ArtefactRarityImage}
+            alt={props.ArtefactRarityAlt}
+            title={props.ArtefactRarityAlt}
             />
         </div>
         <div className="ag-title">
-            <h4>{ArtefactCardAlt}</h4>
-            <p><i className="fa-regular fa-hourglass-half"></i>&nbsp;{ArtefactSubStats[0]}</p>
-            <p><i className="fa-solid fa-trophy"></i>&nbsp;{ArtefactSubStats[1]}</p>
-            <p><i className="fa-solid fa-crown"></i>&nbsp;{ArtefactSubStats[2]}</p>
+            <h4>{props.ArtefactCardAlt}</h4>
+            <p><i className="fa-regular fa-hourglass-half"></i>&nbsp;{props.ArtefactSubStats[0]}</p>
+            <p><i className="fa-solid fa-trophy"></i>&nbsp;{props.ArtefactSubStats[1]}</p>
+            <p><i className="fa-solid fa-crown"></i>&nbsp;{props.ArtefactSubStats[2]}</p>
         </div>
     </div>
-    <p className="wa-p-margin-top">{ArtefactDescription[0]}</p>
-    <p style={{marginTop:'10px'}}>{ArtefactDescription[1]}</p>
+    <p className="wa-p-margin-top">{props.ArtefactDescription[0]}</p>
+    <p style={{marginTop:'10px'}}>{props.ArtefactDescription[1]}</p>
 </div>
 }

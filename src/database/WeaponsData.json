@@ -2,9 +2,9 @@
     {
         "id": 0,
         "WeaponsArtefactsContainer": "weapons-artefacts-container-golden",
-        "WeaponCardImage": "https://genshinbuild.com/images/Armas/Weapon_Uraku_Misugiri.webp",
+        "WeaponCardImage": "/images/Armas/Weapon_Uraku_Misugiri.webp",
         "WeaponCardAlt": "Urakugo Rensai",
-        "WeaponRarityImage": "https://genshinbuild.com/images/We/55star.webp",
+        "WeaponRarityImage": "/images/We/55star.webp",
         "WeaponRarityAlt": "5 Estrelas",
         "WeaponSubStats": "Dano Crítico",
         "WeaponDescription": "Aumenta o Dano do Ataque Normal em 16-32%. Aumenta o Dano da Habilidade Elemental em 24-48%. Quando um personagem ativo próximo causa Dano Geo, os efeitos mencionados acima serão aumentados em 100% por 15s. Além disso, a DEF do personagem que está com essa arma equipada aumenta em 20-40%."
@@ -12,9 +12,9 @@
     {
         "id": 1,
         "WeaponsArtefactsContainer": "weapons-artefacts-container-blue",
-        "WeaponCardImage": "https://genshinbuild.com/images/Armas/Weapon_Harbinger_of_Dawn.webp",
+        "WeaponCardImage": "/images/Armas/Weapon_Harbinger_of_Dawn.webp",
         "WeaponCardAlt": "Prenúncio do Alvorecer",
-        "WeaponRarityImage": "https://genshinbuild.com/images/We/33star.webp",
+        "WeaponRarityImage": "/images/We/33star.webp",
         "WeaponRarityAlt": "3 Estrelas",
         "WeaponSubStats": "Taxa Crítica",
         "WeaponDescription": "Quando a Vida estiver acima 90%, aumenta a Taxa Crítica em 14-28%."

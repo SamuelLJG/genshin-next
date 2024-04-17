@@ -1,110 +1,89 @@
+
 import Image from "next/image"
 
-function Characters({MainElement, children, characterbackground, EmblemImage, EmblemAlt, WeaponCharacterImage, WeaponCharacterAlt, CharacterName, CharacterFunction, CharacterElement, RarityBackground, Rarity, BuildTitle, BuildDescription, BestWeaponDescription, OtherWeapons, BestArtefactDescription, ArtefactSubAttribute, TalentPriority, TeamsDescription, TeamsCharacterDescription, TeamsTitle}:{
-    MainElement: any
-    children: any
-    characterbackground: any
-    EmblemImage: any
-    EmblemAlt: any
-    WeaponCharacterImage: any
-    CharacterName: any
-    WeaponCharacterAlt: any
-    CharacterFunction: any
-    CharacterElement: any
-    RarityBackground: any
-    Rarity: any
-    BuildTitle: any
-    BuildDescription: any
-    BestWeaponDescription: any
-    OtherWeapons: any
-    BestArtefactDescription: any
-    ArtefactSubAttribute: any
-    TalentPriority: any
-    TeamsDescription: any
-    TeamsCharacterDescription: any
-    TeamsTitle: any
-}) {
+export default function Characters(props:any) {
         return <>
-       <main id={MainElement} className="characters-main">
+       <main id={props.MainElement} className="characters-main">
             
-            <section id="section-character" className={MainElement}>
-                <div id="character-background" style={{backgroundImage:characterbackground}}></div>
-                <Image id="emblem"
-                src={EmblemImage}
-                alt={EmblemAlt}
-                title={EmblemAlt}
+            <section id="section-character" className={props.MainElement}>
+                <div id="character-background" style={{backgroundImage:props.characterbackground}}></div>
+                <Image width={234} height={234} priority={true} quality={1}
+                id="emblem"
+                src={props.EmblemImage}
+                alt={props.EmblemAlt}
+                title={props.EmblemAlt}
                 />
-                <div className={MainElement}>
+                <div className={props.MainElement}>
                 </div>
                 <div id="character-name-container">
-                    <Image
-                    src={WeaponCharacterImage}
-                    alt={WeaponCharacterAlt}
-                    title={WeaponCharacterAlt}
+                    <Image quality={1}
+                    width={234}
+                    height={234}
+                    src={props.WeaponCharacterImage}
+                    alt={props.WeaponCharacterAlt}
+                    title={props.WeaponCharacterAlt}
                     />
                     <h1>
-                        {CharacterName} Build
+                        {props.CharacterName} Build
                     </h1>
                     <div>
-                        <p>{CharacterFunction}</p>&nbsp;|&nbsp;<p>{CharacterElement}</p>
+                        <p>{props.CharacterFunction}</p>&nbsp;|&nbsp;<p>{props.CharacterElement}</p>
                     </div>
-                    <p id="rarity" style={{backgroundImage:RarityBackground}}>
-                        {Rarity}<i className="fa-solid fa-star"></i>
+                    <p id="rarity" style={{backgroundImage:props.RarityBackground}}>
+                        {props.Rarity}<i className="fa-solid fa-star"></i>
                     </p>
                 </div>
             </section>
         <article className="character-section-main">
             
-            <h2>{BuildTitle}</h2>
-            <p>{BuildDescription}</p>
+            <h2>{props.BuildTitle}</h2>
+            <p>{props.BuildDescription}</p>
             <br />
             <div className="ads"></div>
             <br />
-            <h3>{CharacterName} Melhor Arma</h3>
-            <p>{BestWeaponDescription}</p>
+            <h3>{props.CharacterName} Melhor Arma</h3>
+            <p>{props.BestWeaponDescription}</p>
             <br />
             <section className="weapons-artefacts-section">
-                {children[0]}
+                {props.children[0]}
             </section>
             <br />
-            <p>{OtherWeapons}</p>
+            <p>{props.OtherWeapons}</p>
             <br />
-            <h3>{CharacterName} Melhor Conjunto de Artefatos</h3>
-            <p>{BestArtefactDescription}</p>
+            <h3>{props.CharacterName} Melhor Conjunto de Artefatos</h3>
+            <p>{props.BestArtefactDescription}</p>
             <br />
             <section className="weapons-artefacts-section">
-                {children[1]}
+                {props.children[1]}
             </section>
             <br />
-            <h3>{CharacterName} Artefatos Sub-Atributos</h3>
-            <p>{ArtefactSubAttribute}</p>
+            <h3>{props.CharacterName} Artefatos Sub-Atributos</h3>
+            <p>{props.ArtefactSubAttribute}</p>
             <br />
-            <h3>{CharacterName} Prioridade de Talentos</h3>
-            <p>{TalentPriority}</p>
+            <h3>{props.CharacterName} Prioridade de Talentos</h3>
+            <p>{props.TalentPriority}</p>
         </article>
         <br />
         <br />
-        <h2 id="best-teams-title">{CharacterName} Melhores Times</h2>
+        <h2 id="best-teams-title">{props.CharacterName} Melhores Times</h2>
         <br />
         <section id="teams-section">
-            <p>{TeamsDescription}</p>
+            <p>{props.TeamsDescription}</p>
             <br />
-            <h3>{CharacterName} Time {TeamsTitle[0]}</h3>
-            <p>{TeamsCharacterDescription[0]}</p>
+            <h3>{props.CharacterName} Time {props.TeamsTitle[0]}</h3>
+            <p>{props.TeamsCharacterDescription[0]}</p>
             <br />
-            <div className="character-team-container">{children[2]}</div>
+            <div className="character-team-container">{props.children[2]}</div>
             <br />
-            <h3>{CharacterName} Time {TeamsTitle[1]}</h3>
-            <p>{TeamsCharacterDescription[1]}</p>
+            <h3>{props.CharacterName} Time {props.TeamsTitle[1]}</h3>
+            <p>{props.TeamsCharacterDescription[1]}</p>
             <br />
-            <div className="character-team-container">{children[3]}</div>
+            <div className="character-team-container">{props.children[3]}</div>
             <br />
-            <h3>{CharacterName} Time {TeamsTitle[2]}</h3>
-            <p>{TeamsCharacterDescription[2]}</p>
+            <h3>{props.CharacterName} Time {props.TeamsTitle[2]}</h3>
+            <p>{props.TeamsCharacterDescription[2]}</p>
             <br />
-            <div className="character-team-container">{children[4]}</div>
+            <div className="character-team-container">{props.children[4]}</div>
         </section>
 </main> </>
 }
-
-export default Characters
