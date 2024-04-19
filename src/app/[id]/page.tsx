@@ -9,7 +9,6 @@ import ArtefactCard from "@/components/ArtefactCard"
 import TeamsCard from "@/components/TeamsCard"
 import ArtefactsData from "@/database/ArtefactsData.json"
 import WeaponsData from "@/database/WeaponsData.json"
-import CharactersPage from "@/database/CharactersPage.json"
 import CD from "@/database/CharactersData.json"
 import Teams from "@/database/Teams.json"
 
@@ -19,44 +18,17 @@ const artefactsSelector = [ArtefactsData[0],ArtefactsData[1]]
 
 const characterSelector = [[CD[6],CD[0],CD[26],CD[80]],[CD[71],CD[0],CD[70],CD[80]],[CD[27],CD[0],CD[72],CD[80]]]
 
-
-type Props = {
-    params: {
-        id: string;
-    }
+async function getCharacterById(id: string) {
+    const response = await fetch(`http://localhost:3000/builds/${id}`)
+    return response.json()
 }
 
-
-
-export const generateMetadata = ({ params }: Props) : Metadata => {
-    return {
-        title:`${params.id} Melhores Builds e Times ` 
-    }
-}
-
-            
-
-function fgao({ params }: Props) {
-
-    
-    
-    const pers = params.id
-
-    let num=2
-    switch(pers) {
-        
-        case 'chiori':
-            num=0
-            break;
-        case 'baizhu':
-            num=1
-            break;
-            }
-            const charactersAll = [CharactersPage[num]]
+async function fgao({params}:any) {
+    const build = await getCharacterById(params.id)
     return <>
     
         {
-            charactersAll.map(function (item,id)  {
+            build.map(function (item:any,id:any)  {
                 return (
                         
                     <Characters
@@ -166,4 +138,6 @@ function fgao({ params }: Props) {
 }
     </>
 }
+
+
 export default fgao

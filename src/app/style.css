@@ -92,14 +92,8 @@ main {
     text-align: center;
 }
 .weapons-artefacts-section img:first-of-type {
-    max-width: 90px;
-    width: 24vw;
     border-bottom-left-radius: 25px;
     margin-bottom: -13px;
-}
-.weapons-artefacts-section img:last-of-type {
-    max-height: 20px;
-    height: 5vw;
 }
 .ag-title {
     display: inline-block;

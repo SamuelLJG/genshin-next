@@ -7,7 +7,7 @@ export default function Characters(props:any) {
             
             <section id="section-character" className={props.MainElement}>
                 <div id="character-background" style={{backgroundImage:props.characterbackground}}></div>
-                <Image width={234} height={234} priority={true} quality={1}
+                <Image width={234} height={234} priority={true}
                 id="emblem"
                 src={props.EmblemImage}
                 alt={props.EmblemAlt}
@@ -16,7 +16,7 @@ export default function Characters(props:any) {
                 <div className={props.MainElement}>
                 </div>
                 <div id="character-name-container">
-                    <Image quality={1}
+                    <Image
                     width={234}
                     height={234}
                     src={props.WeaponCharacterImage}

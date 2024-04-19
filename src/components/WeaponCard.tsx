@@ -6,9 +6,10 @@ export default function WeaponCard(props:any) {
     
     <div className="flex-wa">
         <div className="weapons-artefacts-image-container">
-            <Image quality={1}
+            <Image 
             width={80}
             height={80}
+            style={{width:'22vw', maxWidth:'90px', height:'auto',  maxHeight:'90px'}}
             loading="lazy"
             src={props.WeaponCardImage}
             alt={props.WeaponCardAlt}
@@ -18,6 +19,7 @@ export default function WeaponCard(props:any) {
             <Image 
             width={80} 
             height={80}
+            style={{height:'5vw', width:'auto', maxWidth:'90px',  maxHeight:'20px !important'}}
             loading="lazy"
             src={props.WeaponRarityImage}
             alt={props.WeaponRarityAlt}

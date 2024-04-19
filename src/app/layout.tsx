@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import "./style.css";
-import Link from "next/link";
-import Header from "@/components/Header";
+import "./style.css"
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: {
@@ -20,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
-      <meta name="description" content="Maximize o potencial de Chiori em Genshin Impact com nossas builds especializadas! Confira as melhores opções de armas, artefatos e times." />
       </head>
       <body>
         <Header />
