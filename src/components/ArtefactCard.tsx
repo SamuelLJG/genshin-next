@@ -1,4 +1,4 @@
-"use client"
+
 import Image from "next/image"
 
 export default function ArtefactCard(props:any) {
@@ -19,7 +19,7 @@ export default function ArtefactCard(props:any) {
             <Image 
             width={80}
             height={80}
-            style={{height:'5vw', width:'auto', maxWidth:'90px',  maxHeight:'20px !important'}}
+            style={{height:'5vw', width:'auto', maxWidth:'90px',  maxHeight:'20px'}}
             loading="lazy"
             src={props.ArtefactRarityImage}
             alt={props.ArtefactRarityAlt}
