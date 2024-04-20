@@ -1,21 +1,6 @@
 
 import Link from "next/link"
 
-function Mobile() {
-  
-  const x: any = document.getElementById('mobile-links')
-  const y: any = document.getElementById('mobile-button')
-  const a: any = document.getElementById('close-menu')
-  const b: any = document.getElementById('open-menu')
-if (y.checked===false) {
-    x.style.display='block'
-    a.style.display='block'
-    b.style.display='none'
-} else {
-    x.style.display='none'
-    a.style.display='none'
-    b.style.display='block'
-}}
 
 const Header = () => {
   return <header>
@@ -35,7 +20,7 @@ const Header = () => {
     <nav id='mobile'>
         <Link href='/' className='home-link'>GENSHIN&nbsp;<i className="fa-brands fa-meta"></i>&nbsp;BUILD</Link>
         <input type="checkbox" id="mobile-button" />
-        <label htmlFor="mobile-button">dasdad
+        <label htmlFor="mobile-button">
           <i id='open-menu' className="fa-solid fa-bars"></i>
           <i id='close-menu' className="fa-solid fa-x"></i>
         </label>

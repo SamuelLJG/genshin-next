@@ -176,18 +176,6 @@ div.geo {
 div.dendro {
     background-image: linear-gradient(90deg, #cfff5f, rgba(255, 255, 255, .055));
 }
-#character-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: -250px -125px;
-    max-height: 720px;
-    background-size: 720px;
-}
 #character-name-container {
     position: absolute;
     left: 15px;

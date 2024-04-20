@@ -1,8 +1,5 @@
-import { notFound } from "next/navigation"
-import { Metadata } from "next"
 
 
-// import { ChioriHelmet } from "@/components/Helmets"
 import Characters from "@/components/Characters"
 import WeaponCard from "@/components/WeaponCard"
 import ArtefactCard from "@/components/ArtefactCard"
@@ -10,53 +7,63 @@ import TeamsCard from "@/components/TeamsCard"
 import ArtefactsData from "@/database/ArtefactsData.json"
 import WeaponsData from "@/database/WeaponsData.json"
 import CD from "@/database/CharactersData.json"
-import Teams from "@/database/Teams.json"
+import TeamsData from "@/database/TeamsData.json"
+import Builds from "@/database/builds.json"
+import { useState } from 'react';
 
 const weaponsSelector = [WeaponsData[0],WeaponsData[1]]
 
 const artefactsSelector = [ArtefactsData[0],ArtefactsData[1]]
 
-const characterSelector = [[CD[6],CD[0],CD[26],CD[80]],[CD[71],CD[0],CD[70],CD[80]],[CD[27],CD[0],CD[72],CD[80]]]
 
-async function getCharacterById(id: string) {
-    const response = await fetch(`http://localhost:3000/builds/${id}`)
-    return response.json()
-}
+const characters = [ "albedo", "alhaitham", "aloy", "amber", "wanderer", "arataki-itto", "barbara", "baizhu", "beidou", "bennett", "candace", "charlotte", "chiori", "chongyun", "collei", "cyno", "dehya", "diluc", "diona", "dori", "eula", "faruzan", "fischl", "freminet", "furina", "ganyu", "gorou", "hutao", "Jean", "kaedehara-kazuha", "kaeya", "kamisato-ayaka", "kamisato-ayato", "kaveh", "keqing", "kirara", "klee", "kujou-sara", "kuki-shinobu",  "layla", "lisa", "lynette", "lyney", "mika", "mona", "nahida", "neuvillette", "nilou", "ningguang", "noelle", "qiqi", "raiden-shogun", "razor", "rosaria", "sangonomiya-kokomi", "sayu", "shenhe", "shikanoin-heizou", "sucrose", "tartaglia", "thoma", "tighnari", "traveler-anemo",  "traveler-cryo",  "traveler-dendro",  "traveler-electro",  "traveler-hydro",  "venti", "wriothesley", "xiangling", "xianyun", "xiao", "xingqiu", "xinyan", "yae-miko",  "yanfei", "yaoyao", "yelan", "yoimiya", "yun-jin", "zhongli", ];
 
-async function fgao({params}:any) {
-    const build = await getCharacterById(params.id)
+const mapCharactersToIds:any = {};
+
+characters.forEach((character, index) => {
+    mapCharactersToIds[character] = index ;
+});
+
+export default async function fgao({params}:any) {
+
+
+const buildsSelector = [Builds[ mapCharactersToIds[params.id]]]
     return <>
-    
+                     
+                    
         {
-            build.map(function (item:any,id:any)  {
+            buildsSelector.map((item:any,id:any) => {
+                const characterSelector = [[],[],[]]
+               
                 return (
                         
                     <Characters
                     key={id}
-                    characterbackground = {item.characterbackground}
-                    MainElement = {item.MainElement}
-                    EmblemImage= {item.EmblemImage}
-                    EmblemAlt= {item.EmblemAlt}
-                    WeaponCharacterImage= {item.WeaponCharacterImage}
-                    WeaponCharacterAlt = {item.WeaponCharacterAlt }
-                    CharacterName= {item.CharacterName}
-                    CharacterFunction= {item.CharacterFunction}
-                    CharacterElement= {item.CharacterElement}
-                    Rarity= {item.Rarity} 
-                    RarityBackground= {item.RarityBackground}
-                    BuildTitle = {item.BuildTitle }
-                    BuildDescription = {item.BuildDescription }
-                    BestWeaponDescription = {item.BestWeaponDescription }
-                    OtherWeapons = {item.OtherWeapons }
-                    BestArtefactDescription = {item.BestArtefactDescription }
-                    ArtefactSubAttribute = {item.ArtefactSubAttribute }
-                    TalentPriority = {item.TalentPriority }
-                    TeamsDescription= {item.TeamsDescription}
-                    TeamsTitle= {item.TeamsTitle}
-                    TeamsCharacterDescription= {item.TeamsCharacterDescription}
+                    characterbackground={item.characterbackground}
+                    characterImagePosition={item.characterImagePosition}
+                    MainElement={item.MainElement}
+                    EmblemImage={item.EmblemImage}
+                    EmblemAlt={item.EmblemAlt}
+                    WeaponCharacterImage={item.WeaponCharacterImage}
+                    WeaponCharacterAlt={item.WeaponCharacterAlt }
+                    CharacterName={item.CharacterName}
+                    CharacterFunction={item.CharacterFunction}
+                    CharacterElement={item.CharacterElement}
+                    Rarity={item.Rarity} 
+                    RarityBackground={item.RarityBackground}
+                    BuildTitle={item.BuildTitle }
+                    BuildDescription={item.BuildDescription }
+                    BestWeaponDescription={item.BestWeaponDescription }
+                    OtherWeapons={item.OtherWeapons }
+                    BestArtefactDescription={item.BestArtefactDescription }
+                    ArtefactSubAttribute={item.ArtefactSubAttribute }
+                    TalentPriority={item.TalentPriority }
+                    TeamsDescription={item.TeamsDescription}
+                    TeamsTitle={item.TeamsTitle}
+                    TeamsCharacterDescription={item.TeamsCharacterDescription}
                     >
         {
-            weaponsSelector.map(function (item,id)  {
+            weaponsSelector.map( (item:any,id:any) => {
                 return (
                     <WeaponCard
                     key={id}
@@ -72,7 +79,7 @@ async function fgao({params}:any) {
              })
         }
         {
-            artefactsSelector.map(function (item,id)  {
+            artefactsSelector.map( (item:any,id:any) => {
                 return (
                     <ArtefactCard
                     key={id}
@@ -88,7 +95,7 @@ async function fgao({params}:any) {
             })
         }
         {
-           characterSelector[0].map(function (item,id)  {
+           characterSelector[0].map( (item:any,id:any) =>  {
                 return (
                     <TeamsCard
                     key={id}
@@ -103,7 +110,7 @@ async function fgao({params}:any) {
             })
         }
         {
-           characterSelector[1].map(function (item,id)  {
+           characterSelector[1].map( (item:any,id:any)  => {
                 return (
                     <TeamsCard
                     key={id}
@@ -118,7 +125,7 @@ async function fgao({params}:any) {
             })
         }
         {
-           characterSelector[2].map(function (item,id)  {
+           characterSelector[2].map( (item:any,id:any) => {
                 return (
                     <TeamsCard
                     key={id}
@@ -139,5 +146,3 @@ async function fgao({params}:any) {
     </>
 }
 
-
-export default fgao

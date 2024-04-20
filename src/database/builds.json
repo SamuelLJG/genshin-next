@@ -1,56 +1,58 @@
-{
-    "builds": {
-        "chiori": [{
+
+    
+       [{
             "id": 0,
-            "characterbackground": "url(/images/FullQuality/Wish_Chiori.webp)",
+            "characterbackground": "/images/FullQuality/Wish_Albedo.webp",
             "MainElement": "geo",
-            "EmblemImage": "/images/We/Emblema_Inazuma.webp",
-            "EmblemAlt": "Emblema de Inazuma",
+            "EmblemImage": "/images/We/Emblema_Mondstadt.webp",
+            "EmblemAlt": "Emblema de Mondstadt",
             "WeaponCharacterImage": "/images/AT/Espada.webp",
             "WeaponCharacterAlt": "Espada",
-            "CharacterName": "Chiori",
+            "CharacterName": "Albedo",
             "CharacterFunction": "Sub-DPS",
             "CharacterElement": "Geo",
             "Rarity": "Raridade: 5",
             "RarityBackground": "linear-gradient(135deg, #6b5453, #cea969)",
-            "BuildTitle": "Chiori Melhor Build (Sub-DPS)",
-            "BuildDescription": "A melhor build para a Chiori é a de Sub-DPS. Nessa build a Chiori utilizará sua Habilidade Elemental para causar a maior quantidade de dano fora de campo, estando presente apenas para usar seu Supremo e sua Habilidade Elemental, exercendo perfeitamente sua função de Off-Field.",
-            "BestWeaponDescription": "A melhor para a Chiori é a Urakugo Rensai. Essa é a arma característica da Chiori e a melhor opção para ela. Ela aumenta bastante o dano dos Ataques Normais e da Habilidade Elemental, o que é ideal para a personagem, além de uma grande quantidade de Dano Crítico como Sub-Status.",
-            "OtherWeapons": "Outras opções de armas para a Chiori são: Cortador de Jade Primordial, Espada Pútrida, Farpa e Haste de Cinábrio.",
-            "BestArtefactDescription": "O melhor conjunto de artefatos para a Chiori é o da Casca de Sonhos Opulentos. Ele aumenta muito a Defesa e o Bônus de Dano Geo. Entre os outros conjuntos de artefatos esse é o que tem o maior dano a para Chiori até o momento. A Trupe Dourada também é uma outra boa opção para aumentar o dano da Habilidade Elemental da Chiori.",
+            "BuildTitle": "Albedo Melhor Build (Sub-DPS)",
+            "BuildDescription": "A melhor build para a Albedo é a de Sub-DPS. Nessa build a Albedo utilizará sua Habilidade Elemental para causar a maior quantidade de dano fora de campo, estando presente apenas para usar seu Supremo e sua Habilidade Elemental, exercendo perfeitamente sua função de Off-Field.",
+            "BestWeaponDescription": "A melhor para a Albedo é a Urakugo Rensai. Essa é a arma característica da Albedo e a melhor opção para ela. Ela aumenta bastante o dano dos Ataques Normais e da Habilidade Elemental, o que é ideal para a personagem, além de uma grande quantidade de Dano Crítico como Sub-Status.",
+            "OtherWeapons": "Outras opções de armas para a Albedo são: Cortador de Jade Primordial, Espada Pútrida, Farpa e Haste de Cinábrio.",
+            "BestArtefactDescription": "O melhor conjunto de artefatos para a Albedo é o da Casca de Sonhos Opulentos. Ele aumenta muito a Defesa e o Bônus de Dano Geo. Entre os outros conjuntos de artefatos esse é o que tem o maior dano a para Albedo até o momento. A Trupe Dourada também é uma outra boa opção para aumentar o dano da Habilidade Elemental da Albedo.",
             "ArtefactSubAttribute": "Como você precisará causar o máximo de dano possível, é importante buildar Dano Crítico e Taxa Crítica. Você também pode buildar DEF% e ATQ%, mas esses são de segunda prioridade.",
-            "TalentPriority": "O Talento da Chiori que você deve priorizar é a Habilidade Elemental, por ser a Skill que ela mais usará fora de campo. O Supremo é de segunda prioridade e o Ataque Básico não é necessário.",
+            "TalentPriority": "O Talento da Albedo que você deve priorizar é a Habilidade Elemental, por ser a Skill que ela mais usará fora de campo. O Supremo é de segunda prioridade e o Ataque Básico não é necessário.",
             "TeamsDescription": "Os melhores times para o Alhaitham normalmente são aqueles contêm personagens do tipo Hydro e Electro, para que junto ao elemento Dendro do personagen, possam ser desencadeadas reações de Aceleração e SuperFlorescimento. Portanto, você pode escolher os companheiros do Alhaitham baseando-se nesses elementos.",
             "TeamsTitle": ["Standard","Premium","de Vaporização"],
-            "TeamsCharacterDescription": ["Xiao funcionará bem com a Xianyun para curar e reduzir as necessidades de energia de ambos. Furina fornecerá buff e dano adicional para todo o time. Com Xianyun, o dano da Furina é aumentado e os acúmulos podem ser obtidos mais rapidamente. Faruzan fortalecerá Xiao e fornecer energia em constelações superiores.","Furina fornecerá buff, dano adicional e irá aplicar hydro. Diluc será o Main DPS, estando a maior parte do tempo em campo causando dano com Ataques Imersivos e gerando reações de vaporização. Bennett irá fornecer bastante dano para toda a equipe e cua. Xianyun irá curar juntamente com Bennett e aumentar significativamente o dano do Diluc.","Hu Tao será a Main DPS, causando dano com Ataques Imersivos e reações de vaporização com a ajuda da Furina e Xingqiu. Furina fornecerá buff e dano adicional para todo o time. Xingqiu irá causar dano Off-Field e aplicar hydro. Xianyun irá fornecer cura e aumentar significativamente no dano da Hu Tao."]
-        }],
-        "raiden-shogun": [{
+            "TeamsCharacterDescription": ["Xiao funcionará bem com a Xianyun para curar e reduzir as necessidades de energia de ambos. Furina fornecerá buff e dano adicional para todo o time. Com Xianyun, o dano da Furina é aumentado e os acúmulos podem ser obtidos mais rapidamente. Faruzan fortalecerá Xiao e fornecer energia em constelações superiores.","Furina fornecerá buff, dano adicional e irá aplicar hydro. Diluc será o Main DPS, estando a maior parte do tempo em campo causando dano com Ataques Imersivos e gerando reações de vaporização. Bennett irá fornecer bastante dano para toda a equipe e cua. Xianyun irá curar juntamente com Bennett e aumentar significativamente o dano do Diluc.","Hu Tao será a Main DPS, causando dano com Ataques Imersivos e reações de vaporização com a ajuda da Furina e Xingqiu. Furina fornecerá buff e dano adicional para todo o time. Xingqiu irá causar dano Off-Field e aplicar hydro. Xianyun irá fornecer cura e aumentar significativamente no dano da Hu Tao."],
+            "characterImagePosition": ["-130px","-170px"],
+            "teams": ["[CD[6],CD[0],CD[26],CD[80]]","[CD[71],CD[0],CD[70],CD[80]]","[CD[27],CD[0],CD[72],CD[80]]"]
+        },
+        {
             "id": 1,
-            "characterbackground": "url(/images/FullQuality/Wish_Raiden_Shogun.webp)",
-            "MainElement": "electro",
+            "characterbackground": "/images/FullQuality/Wish_Alhaitham.webp",
+            "MainElement": "dendro",
             "EmblemImage": "/images/We/Emblema_Inazuma.webp",
             "EmblemAlt": "Emblema de Inazuma",
             "WeaponCharacterImage": "/images/AT/Espada.webp",
             "WeaponCharacterAlt": "Espada",
-            "CharacterName": "Raiden",
+            "CharacterName": "Alhaitham",
             "CharacterFunction": "Suporte",
             "CharacterElement": "Dendro",
             "Rarity": "Raridade: 5",
             "RarityBackground": "linear-gradient(135deg, #6b5453, #cea969)",
-            "BuildTitle": "Raiden Melhor Build (Suporte)",
-            "BuildDescription": "A melhor build para a Raiden é a de Suporte. Nessa build a Raiden utilizará sua Habilidade Elemental para causar a maior quantidade de dano fora de campo, estando presente apenas para usar seu Supremo e sua Habilidade Elemental, exercendo perfeitamente sua função de Off-Field.",
-            "BestWeaponDescription": "A melhor para a Raiden é a Urakugo Rensai. Essa é a arma característica da Raiden e a melhor opção para ela. Ela aumenta bastante o dano dos Ataques Normais e da Habilidade Elemental, o que é ideal para a personagem, além de uma grande quantidade de Dano Crítico como Sub-Status.",
-            "OtherWeapons": "Outras opções de armas para a Raiden são: Cortador de Jade Primordial, Espada Pútrida, Farpa e Haste de Cinábrio.",
-            "BestArtefactDescription": "O melhor conjunto de artefatos para a Raiden é o da Casca de Sonhos Opulentos. Ele aumenta muito a Defesa e o Bônus de Dano Geo. Entre os outros conjuntos de artefatos esse é o que tem o maior dano a para Raiden até o momento. A Trupe Dourada também é uma outra boa opção para aumentar o dano da Habilidade Elemental da Raiden.",
+            "BuildTitle": "Alhaitham Melhor Build (Suporte)",
+            "BuildDescription": "A melhor build para a Alhaitham é a de Suporte. Nessa build a Alhaitham utilizará sua Habilidade Elemental para causar a maior quantidade de dano fora de campo, estando presente apenas para usar seu Supremo e sua Habilidade Elemental, exercendo perfeitamente sua função de Off-Field.",
+            "BestWeaponDescription": "A melhor para a Alhaitham é a Urakugo Rensai. Essa é a arma característica da Alhaitham e a melhor opção para ela. Ela aumenta bastante o dano dos Ataques Normais e da Habilidade Elemental, o que é ideal para a personagem, além de uma grande quantidade de Dano Crítico como Sub-Status.",
+            "OtherWeapons": "Outras opções de armas para a Alhaitham são: Cortador de Jade Primordial, Espada Pútrida, Farpa e Haste de Cinábrio.",
+            "BestArtefactDescription": "O melhor conjunto de artefatos para a Alhaitham é o da Casca de Sonhos Opulentos. Ele aumenta muito a Defesa e o Bônus de Dano Geo. Entre os outros conjuntos de artefatos esse é o que tem o maior dano a para Alhaitham até o momento. A Trupe Dourada também é uma outra boa opção para aumentar o dano da Habilidade Elemental da Alhaitham.",
             "ArtefactSubAttribute": "Como você precisará causar o máximo de dano possível, é importante buildar Dano Crítico e Taxa Crítica. Você também pode buildar DEF% e ATQ%, mas esses são de segunda prioridade.",
-            "TalentPriority": "O Talento da Raiden que você deve priorizar é a Habilidade Elemental, por ser a Skill que ela mais usará fora de campo. O Supremo é de segunda prioridade e o Ataque Básico não é necessário.",
+            "TalentPriority": "O Talento da Alhaitham que você deve priorizar é a Habilidade Elemental, por ser a Skill que ela mais usará fora de campo. O Supremo é de segunda prioridade e o Ataque Básico não é necessário.",
             "TeamsDescription": "Os melhores times para o Alhaitham normalmente são aqueles contêm personagens do tipo Hydro e Electro, para que junto ao elemento Dendro do personagen, possam ser desencadeadas reações de Aceleração e SuperFlorescimento. Portanto, você pode escolher os companheiros do Alhaitham baseando-se nesses elementos.",
             "TeamsTitle": ["Standard","Premium","de Vaporização"],
             "TeamsCharacterDescription": ["Xiao funcionará bem com a Xianyun para curar e reduzir as necessidades de energia de ambos. Furina fornecerá buff e dano adicional para todo o time. Com Xianyun, o dano da Furina é aumentado e os acúmulos podem ser obtidos mais rapidamente. Faruzan fortalecerá Xiao e fornecer energia em constelações superiores.","Furina fornecerá buff, dano adicional e irá aplicar hydro. Diluc será o Main DPS, estando a maior parte do tempo em campo causando dano com Ataques Imersivos e gerando reações de vaporização. Bennett irá fornecer bastante dano para toda a equipe e cua. Xianyun irá curar juntamente com Bennett e aumentar significativamente o dano do Diluc.","Hu Tao será a Main DPS, causando dano com Ataques Imersivos e reações de vaporização com a ajuda da Furina e Xingqiu. Furina fornecerá buff e dano adicional para todo o time. Xingqiu irá causar dano Off-Field e aplicar hydro. Xianyun irá fornecer cura e aumentar significativamente no dano da Hu Tao."]
-        }],
-        "neuvillette": [{
+        },
+        {
             "id": 2,
-            "characterbackground": "url(/images/FullQuality/Wish_Neuvillette.webp)",
+            "characterbackground": "/images/FullQuality/Wish_Neuvillette.webp",
             "MainElement": "hydro",
             "EmblemImage": "/images/We/Emblema_Inazuma.webp",
             "EmblemAlt": "Emblema de Inazuma",
@@ -72,5 +74,4 @@
             "TeamsTitle": ["Standard","Premium","de Vaporização"],
             "TeamsCharacterDescription": ["Xiao funcionará bem com a Xianyun para curar e reduzir as necessidades de energia de ambos. Furina fornecerá buff e dano adicional para todo o time. Com Xianyun, o dano da Furina é aumentado e os acúmulos podem ser obtidos mais rapidamente. Faruzan fortalecerá Xiao e fornecer energia em constelações superiores.","Furina fornecerá buff, dano adicional e irá aplicar hydro. Diluc será o Main DPS, estando a maior parte do tempo em campo causando dano com Ataques Imersivos e gerando reações de vaporização. Bennett irá fornecer bastante dano para toda a equipe e cua. Xianyun irá curar juntamente com Bennett e aumentar significativamente o dano do Diluc.","Hu Tao será a Main DPS, causando dano com Ataques Imersivos e reações de vaporização com a ajuda da Furina e Xingqiu. Furina fornecerá buff e dano adicional para todo o time. Xingqiu irá causar dano Off-Field e aplicar hydro. Xianyun irá fornecer cura e aumentar significativamente no dano da Hu Tao."]
         }]
-    }
-}
+    

@@ -6,8 +6,24 @@ export default function Characters(props:any) {
        <main id={props.MainElement} className="characters-main">
             
             <section id="section-character" className={props.MainElement}>
-                <div id="character-background" style={{backgroundImage:props.characterbackground}}></div>
-                <Image width={234} height={234} priority={true}
+                <div id="character-background">
+                    <Image
+                    priority={true}
+                    width={800}
+                    height={800}
+                    src={props.characterbackground}
+                    alt={props.CharacterName}
+                    style={{
+                        position:'absolute',
+                        bottom:`${props.characterImagePosition[0]}`,
+                        left:`${props.characterImagePosition[1]}`,
+                        zIndex:'1',
+                        height:620,
+                        width:'auto',
+                    }}
+                    />
+                </div>
+                <Image width={234} height={234}
                 id="emblem"
                 src={props.EmblemImage}
                 alt={props.EmblemAlt}
