@@ -20,8 +20,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
     <head>
-    <Script src="https://kit.fontawesome.com/7e144ec40c.js" />
-    <Script src="../../MobileButton/MobileButton.js" />
+      <link rel="preconnect" href="https://kit.fontawesome.com" />
     </head>
       <body>
         <Header />
@@ -29,6 +28,7 @@ export default function RootLayout({
         {children}
         <br />
         <Footer />
+    <Script src="https://kit.fontawesome.com/7e144ec40c.js" />
       </body>
     </html>
   );

@@ -13,21 +13,23 @@ export default function Characters(props:any) {
                     height={800}
                     src={props.characterbackground}
                     alt={props.CharacterName}
+                    title={props.CharacterName}
                     style={{
                         position:'absolute',
                         bottom:`${props.characterImagePosition[0]}`,
                         left:`${props.characterImagePosition[1]}`,
-                        zIndex:'1',
-                        height:620,
+                        zIndex:'2',
+                        height: props.characterImagePosition[2],
                         width:'auto',
                     }}
                     />
                 </div>
-                <Image width={234} height={234}
+                <Image width={254} height={234}
                 id="emblem"
                 src={props.EmblemImage}
                 alt={props.EmblemAlt}
                 title={props.EmblemAlt}
+                loading="eager"
                 />
                 <div className={props.MainElement}>
                 </div>
