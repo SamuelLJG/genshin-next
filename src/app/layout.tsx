@@ -1,7 +1,8 @@
+
+
 import type { Metadata } from "next";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Script from "next/script";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -19,17 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-    <head>
-      <link rel="preconnect" href="https://kit.fontawesome.com" />
-    </head>
-      <body>
-        <Header />
-        <br />
+    <head><link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" /></head>
+    <body>
         {children}
-        <br />
-        <Footer />
-    <Script src="https://kit.fontawesome.com/7e144ec40c.js" />
-      </body>
+    </body>
     </html>
   );
 }

@@ -1,14 +1,17 @@
 
 
-import Characters from "@/components/Characters"
-import WeaponCard from "@/components/WeaponCard"
-import ArtefactCard from "@/components/ArtefactCard"
-import TeamsCard from "@/components/TeamsCard"
+import Characters from "../../components/Characters"
+import WeaponCard from "../../components/WeaponCard"
+import ArtefactCard from "../../components/ArtefactCard"
+import TeamsCard from "../../components/TeamsCard"
 import ArtefactsData from "@/database/ArtefactsData.json"
 import WeaponsData from "@/database/WeaponsData.json"
 import Builds from "@/database/builds.json"
+import Header from "../../components/Header"
+import Footer from "@/components/Footer"
 
-import { characterSelector } from "@/components/TeamsData"
+import { characterSelector, characterMetadata, characterMetaImage } from "../../components/TeamsData"
+import { Metadata } from "next";
 
 
 const weaponsSelector = [WeaponsData[0],WeaponsData[1]]
@@ -25,20 +28,65 @@ characters.forEach((character, index) => {
     mapCharactersToIds[character] = index ;
 });
 
-export default async function fgao({params}:any) {
+type Props = {
+    params: {
+        id: string
+    }
+}
 
-    const dsai = characterSelector[mapCharactersToIds[params.id]]
+export async function generateMetadata({params}: Props):Promise<Metadata> {
+    return {
+        title: `${characterMetadata[mapCharactersToIds[params.id]]} Melhores Builds e Times`,
+        description: `Maximize o potencial de ${characterMetadata[mapCharactersToIds[params.id]]} em Genshin Impact com nossas builds especializadas! Confira as melhores opções de armas, artefatos e times.`,
+        openGraph: {
+            images: [`https://genshinbuild.com/images/FullQuality/Wish_${characterMetaImage[mapCharactersToIds[params.id]]}.webp`],
+            url: `https://genshinbuild.com/${params.id}`
+        }
+    }
+}
+  
 
-const buildsSelector = [Builds[ mapCharactersToIds[params.id]]]
+export default async function CharacterBuild({params}:any) {
+
+    const charactersTeamsAll = characterSelector[mapCharactersToIds[params.id]]
+
+    const buildsSelector = [Builds[ mapCharactersToIds[params.id]]]
+    
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": `${characterMetadata[mapCharactersToIds[params.id]]} Melhores Builds e Times - Genshin Impact`,
+        "description": `Maximize o potencial de ${characterMetadata[mapCharactersToIds[params.id]]} em Genshin Impact com nossas builds especializadas! Confira as melhores opções de armas, artefatos e times.`,
+        "url": `https://genshinbuild.com/${params.id}`,
+        "image": [`https://genshinbuild.com/images/FullQuality/Wish_${characterMetaImage[mapCharactersToIds[params.id]]}.webp`],
+        "author": [{
+            "@type": "Person",
+            "name": "Smk",
+            "url": "https://github.com/SamuelLJG"
+          }
+        ]
+    }
     return <>
-                     
-                    
+
         {
             buildsSelector.map((item:any,id:any) => {
-               
                 return (
-                        
-                    <Characters
+                    <Header
+                    key={id}
+                    MainElement={item.MainElement}
+                    />
+                )
+            })
+        }
+        <br />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <link rel="canonical" href={"https://genshinbuild.com/"+[params.id]} />
+        <meta property="og:type" content="website" />
+
+        {
+            buildsSelector.map((item:any,id:any) => {
+               return (
+                     <Characters
                     key={id}
                     characterbackground={item.characterbackground}
                     characterImagePosition={item.characterImagePosition}
@@ -96,7 +144,7 @@ const buildsSelector = [Builds[ mapCharactersToIds[params.id]]]
             })
         }
         {
-           dsai[0].map( (item:any,id:any) =>  {
+           charactersTeamsAll[0].map( (item:any,id:any) =>  {
                 return (
                     <TeamsCard
                     key={id}
@@ -111,7 +159,7 @@ const buildsSelector = [Builds[ mapCharactersToIds[params.id]]]
             })
         }
         {
-           dsai[1].map( (item:any,id:any)  => {
+           charactersTeamsAll[1].map( (item:any,id:any)  => {
                 return (
                     <TeamsCard
                     key={id}
@@ -126,7 +174,7 @@ const buildsSelector = [Builds[ mapCharactersToIds[params.id]]]
             })
         }
         {
-           dsai[2].map( (item:any,id:any) => {
+           charactersTeamsAll[2].map( (item:any,id:any) => {
                 return (
                     <TeamsCard
                     key={id}
@@ -144,6 +192,8 @@ const buildsSelector = [Builds[ mapCharactersToIds[params.id]]]
     )
  })
 }
+        <br />
+        <Footer/>
     </>
 }
 

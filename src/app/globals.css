@@ -142,6 +142,12 @@ footer {
 .flex-wa {
     display: flex;
 }
+#emblem {
+    position: absolute;
+    right: 3%;
+    top: 82.5px;
+    z-index: 1;
+}
 section.anemo, section.cryo, section.dendro, section.electro, section.geo, section.hydro, section.pyro {
     border-radius: 5px 5px 0px 0px;
     box-shadow: #a8a8a8 0 -0.5px 3px;
@@ -155,14 +161,19 @@ section.geo {
 section.dendro {
     background: linear-gradient(-45deg, #64ee52, #9fe252, #7cd85f, #51a81f);
 }
-#emblem {
-    height: 235px;
-    position: absolute;
-    right: 3%;
-    top: 82.5px;
-    z-index: 1;
+section.cryo {
+    background: linear-gradient(-45deg, #c8e8f3, #67d1d1, #56aacd, #65b9d6);
 }
-div.geo, div.dendro {
+.geo {
+    --dest: #ffda76;
+}
+.dendro {
+    --dest: #92e978;
+}
+.cryo {
+    --dest: #b0e0f3;
+}
+div.geo, div.dendro, div.cryo {
     position: absolute;
     right: 15px;
     top: 15px;
@@ -176,6 +187,9 @@ div.geo {
 }
 div.dendro {
     background-image: linear-gradient(90deg, #cfff5f, rgba(255, 255, 255, .055));
+}
+div.cryo {
+    background-image: linear-gradient(90deg, #c8e8f3, rgba(255, 255, 255, .055));
 }
 #character-name-container {
     position: absolute;
@@ -225,7 +239,8 @@ h1 {
     display: none;
     justify-content: space-between;
     align-items: center;
-    background: var(--css);
+    background: var(--background);
+    box-shadow: var(--box);
     top: 0;
     right: 0;
     width: 100%;
@@ -260,8 +275,9 @@ h1 {
     display: flex;
     gap: 20px;
 }
-#pc a:hover {
+#pc a:hover, #pc a:hover svg {
     color: var(--dest);
+    fill: var(--dest) ;
     transition: .3s;
 }
 .ads {
@@ -278,11 +294,37 @@ h1 {
     font-size: min(15px, 4vw);
 }
 #mobile-links {
-    height: 200px;
-    background: rgb(240, 47, 47);
-    display: none;
+    background: var(--background);
+    padding: 20px 15px;
+    gap: 15px;
+    box-shadow: var(--box);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-#mobile-button, #close-menu {
+#mobile-links a {
+    display: inline-block;
+    text-align:center;
+    font-weight: bold;
+    font-size: min(10px, 4.5vw);
+    letter-spacing: normal;
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, .3) 0 1px 2px 0, rgba(0, 0, 0, .15) 0 2px 6px 2px;
+}
+.geo #mobile-links a {
+    background-color: #ffca5717;
+}
+.dendro #mobile-links a {
+    background-color: #51ff0011;
+}
+.cryo #mobile-links a {
+    background-color: #00b7ff11;
+}
+#mobile-links a svg {
+    fill:rgba(255, 255, 255, 0.918);
+}
+#mobile-button {
     display: none;
 }
 .wa-p-margin-top {
@@ -306,10 +348,10 @@ h1 {
     box-shadow: rgba(255,255,255,.562) 0.1px -0.1px 2px;
     content: 'Opcional';
 }
-.anemo {
+#teams-section .anemo {
     background: #5dfab8;
 }
-.cryo {
+#teams-section .cryo {
     background: #a5fffa;
 }
 #teams-section .dendro {
@@ -361,6 +403,19 @@ h1 {
     white-space: nowrap;
     color: rgba(255, 255, 255, 0.767);
 }
+.block-gh {
+    height: auto;
+}
+.none-gh{
+    max-height: 0px;
+    overflow: hidden;
+}
+.block {
+    display: inline-block;
+}
+.none{
+    display: none;
+}
 @media only screen and (max-width: 820px) {
     main {
         margin: 0px 10px;
@@ -405,7 +460,13 @@ h1 {
         max-width: 100px;
     }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 330px) {
+    #mobile-links {
+        gap: 10px;
+        padding: 15px 10px;
+    }
+}
+@media only screen and (max-width: 300px) {
     .character-section-main, #teams-section {
         padding: 10px;
     }
