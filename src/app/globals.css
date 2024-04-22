@@ -575,6 +575,12 @@ h1 {
     #home-page-characters-grid {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
+    #home-page-characters-grid a {
+        max-height: 290px;
+    }
+    #home-page-characters-grid a img:nth-of-type(1){
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 479px) {
     #home-page-characters-grid {
@@ -595,5 +601,6 @@ h1 {
     }
     #home-page-characters-grid a img:nth-of-type(1){
         max-width: 140px;
+        width: 100%;
     }
 }
