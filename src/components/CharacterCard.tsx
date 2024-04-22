@@ -8,6 +8,7 @@ export default function CharacterCard(props:any) {
         <Image
         width={140}
         height={448}
+        quality={20}
         id={props.CharacterTeamName}
         className={props.CharacterTeamElement}
         src={`/images/Characters/${props.CharacterTeamNameImage}_Avatar.webp`}
