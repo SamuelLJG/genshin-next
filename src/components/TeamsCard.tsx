@@ -10,7 +10,7 @@ export default function TeamsCard(props:any) {
         height={116}
         style={{width:'19vw', maxWidth:'116px', height:'auto',  maxHeight:'116px'}}
         className={props.CharacterTeamElement}
-        src={props.CharacterTeamNameImage}
+        src={`/images/Characters/${props.CharacterTeamNameImage}.webp`}
         alt={props.CharacterTeamName}
         title={props.CharacterTeamName}
         />

@@ -64,7 +64,7 @@ export default function Characters(props:any) {
             </section>
         <article className="character-section-main">
             
-            <h2>{props.BuildTitle}</h2>
+            <h2 className="title-character">{props.BuildTitle}</h2>
             <p>{props.BuildDescription}</p>
             <br />
             <div className="ads"></div>
@@ -93,7 +93,7 @@ export default function Characters(props:any) {
         </article>
         <br />
         <br />
-        <h2 id="best-teams-title">{props.CharacterName} Melhores Times</h2>
+        <h2 id="best-teams-title" className="title-character">{props.CharacterName} Melhores Times</h2>
         <br />
         <section id="teams-section">
             <p>{props.TeamsDescription}</p>

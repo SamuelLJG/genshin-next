@@ -1,569 +1,650 @@
 [
     {
-        "id": 0,
-        "CharacterTeamName" : "Chiori",
-        "CharacterTeamNameImage" : "/images/Characters/Chiori.webp",
-        "CharacterUrl": "/chiori",
-        "CharacterTeamElement": "geo"
-    },
-    {
         "id": 1,
         "CharacterTeamName" : "Albedo",
-        "CharacterTeamNameImage" : "/images/Characters/Albedo.webp",
+        "CharacterTeamNameImage" : "Albedo",
         "CharacterUrl": "/albedo",
-        "CharacterTeamElement": "geo"
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 2,
         "CharacterTeamName" : "Alhaitham",
-        "CharacterTeamNameImage" : "/images/Characters/Alhaitham.webp",
+        "CharacterTeamNameImage" : "Alhaitham",
         "CharacterUrl": "/alhaitham",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 3,
         "CharacterTeamName" : "Aloy",
-        "CharacterTeamNameImage" : "/images/Characters/Aloy.webp",
+        "CharacterTeamNameImage" : "Aloy",
         "CharacterUrl": "/aloy",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 4,
         "CharacterTeamName" : "Amber",
-        "CharacterTeamNameImage" : "/images/Characters/Amber.webp",
+        "CharacterTeamNameImage" : "Amber",
         "CharacterUrl": "/amber",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 5,
         "CharacterTeamName" : "Andarilho",
-        "CharacterTeamNameImage" : "/images/Characters/Wanderer.webp",
+        "CharacterTeamNameImage" : "Wanderer",
         "CharacterUrl": "/wanderer",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 6,
         "CharacterTeamName" : "Itto",
-        "CharacterTeamNameImage" : "/images/Characters/Arataki_Itto.webp",
+        "CharacterTeamNameImage" : "Arataki_Itto",
         "CharacterUrl": "/arataki-itto",
-        "CharacterTeamElement": "geo"
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 7,
         "CharacterTeamName" : "Barbara",
-        "CharacterTeamNameImage" : "/images/Characters/Barbara.webp",
+        "CharacterTeamNameImage" : "Barbara",
         "CharacterUrl": "/barbara",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 8,
         "CharacterTeamName" : "Baizhu",
-        "CharacterTeamNameImage" : "/images/Characters/Baizhu.webp",
+        "CharacterTeamNameImage" : "Baizhu",
         "CharacterUrl": "/baizhu",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 9,
         "CharacterTeamName" : "Beidou",
-        "CharacterTeamNameImage" : "/images/Characters/Beidou.webp",
+        "CharacterTeamNameImage" : "Beidou",
         "CharacterUrl": "/beidou",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 10,
         "CharacterTeamName" : "Bennett",
-        "CharacterTeamNameImage" : "/images/Characters/Bennett.webp",
+        "CharacterTeamNameImage" : "Bennett",
         "CharacterUrl": "/bennett",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 11,
         "CharacterTeamName" : "Candace",
-        "CharacterTeamNameImage" : "/images/Characters/Candace.webp",
+        "CharacterTeamNameImage" : "Candace",
         "CharacterUrl": "/candace",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 12,
         "CharacterTeamName" : "Charlotte",
-        "CharacterTeamNameImage" : "/images/Characters/Charlotte.webp",
+        "CharacterTeamNameImage" : "Charlotte",
         "CharacterUrl": "/charlotte",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "four-star"
+    },
+    {
+        "id": 0,
+        "CharacterTeamName" : "Chiori",
+        "CharacterTeamNameImage" : "Chiori",
+        "CharacterUrl": "/chiori",
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 13,
         "CharacterTeamName" : "Chongyun",
-        "CharacterTeamNameImage" : "/images/Characters/Chongyun.webp",
+        "CharacterTeamNameImage" : "Chongyun",
         "CharacterUrl": "/chongyun",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 14,
         "CharacterTeamName" : "Collei",
-        "CharacterTeamNameImage" : "/images/Characters/Collei.webp",
+        "CharacterTeamNameImage" : "Collei",
         "CharacterUrl": "/collei",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 15,
         "CharacterTeamName" : "Cyno",
-        "CharacterTeamNameImage" : "/images/Characters/Cyno.webp",
+        "CharacterTeamNameImage" : "Cyno",
         "CharacterUrl": "/cyno",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 16,
         "CharacterTeamName" : "Dehya",
-        "CharacterTeamNameImage" : "/images/Characters/Dehya.webp",
+        "CharacterTeamNameImage" : "Dehya",
         "CharacterUrl": "/dehya",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 17,
         "CharacterTeamName" : "Diluc",
-        "CharacterTeamNameImage" : "/images/Characters/Diluc.webp",
+        "CharacterTeamNameImage" : "Diluc",
         "CharacterUrl": "/diluc",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 18,
         "CharacterTeamName" : "Diona",
-        "CharacterTeamNameImage" : "/images/Characters/Diona.webp",
+        "CharacterTeamNameImage" : "Diona",
         "CharacterUrl": "/diona",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 19,
         "CharacterTeamName" : "Dori",
-        "CharacterTeamNameImage" : "/images/Characters/Dori.webp",
+        "CharacterTeamNameImage" : "Dori",
         "CharacterUrl": "/dori",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 20,
         "CharacterTeamName" : "Eula",
-        "CharacterTeamNameImage" : "/images/Characters/Eula.webp",
+        "CharacterTeamNameImage" : "Eula",
         "CharacterUrl": "/eula",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 21,
         "CharacterTeamName" : "Faruzan",
-        "CharacterTeamNameImage" : "/images/Characters/Faruzan.webp",
+        "CharacterTeamNameImage" : "Faruzan",
         "CharacterUrl": "/faruzan",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 22,
         "CharacterTeamName" : "Fischl",
-        "CharacterTeamNameImage" : "/images/Characters/Fischl.webp",
+        "CharacterTeamNameImage" : "Fischl",
         "CharacterUrl": "/fischl",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 23,
         "CharacterTeamName" : "Freminet",
-        "CharacterTeamNameImage" : "/images/Characters/Freminet.webp",
+        "CharacterTeamNameImage" : "Freminet",
         "CharacterUrl": "/freminet",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 24,
         "CharacterTeamName" : "Furina",
-        "CharacterTeamNameImage" : "/images/Characters/Furina.webp",
+        "CharacterTeamNameImage" : "Furina",
         "CharacterUrl": "/furina",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 25,
         "CharacterTeamName" : "Ganyu",
-        "CharacterTeamNameImage" : "/images/Characters/Ganyu.webp",
+        "CharacterTeamNameImage" : "Ganyu",
         "CharacterUrl": "/ganyu",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 26,
         "CharacterTeamName" : "Gorou",
-        "CharacterTeamNameImage" : "/images/Characters/Gorou.webp",
+        "CharacterTeamNameImage" : "Gorou",
         "CharacterUrl": "/gorou",
-        "CharacterTeamElement": "geo"
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 27,
         "CharacterTeamName" : "Hu Tao",
-        "CharacterTeamNameImage" : "/images/Characters/Hu_Tao.webp",
+        "CharacterTeamNameImage" : "Hu_Tao",
         "CharacterUrl": "/hu-tao",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 28,
         "CharacterTeamName" : "Jean",
-        "CharacterTeamNameImage" : "/images/Characters/Jean.webp",
+        "CharacterTeamNameImage" : "Jean",
         "CharacterUrl": "/jean",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 29,
         "CharacterTeamName" : "Kazuha",
-        "CharacterTeamNameImage" : "/images/Characters/Kaedehara_Kazuha.webp",
+        "CharacterTeamNameImage" : "Kaedehara_Kazuha",
         "CharacterUrl": "/kaedehara-kazuha",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 30,
         "CharacterTeamName" : "Kaeya",
-        "CharacterTeamNameImage" : "/images/Characters/Kaeya.webp",
+        "CharacterTeamNameImage" : "Kaeya",
         "CharacterUrl": "/kaeya",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 31,
         "CharacterTeamName" : "Ayaka",
-        "CharacterTeamNameImage" : "/images/Characters/Kamisato_Ayaka.webp",
+        "CharacterTeamNameImage" : "Kamisato_Ayaka",
         "CharacterUrl": "/kamisato-ayaka",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 32,
         "CharacterTeamName" : "Ayato",
-        "CharacterTeamNameImage" : "/images/Characters/Kamisato_Ayato.webp",
+        "CharacterTeamNameImage" : "Kamisato_Ayato",
         "CharacterUrl": "/kamisato-ayato",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 33,
         "CharacterTeamName" : "Kaveh",
-        "CharacterTeamNameImage" : "/images/Characters/Kaveh.webp",
+        "CharacterTeamNameImage" : "Kaveh",
         "CharacterUrl": "/kaveh",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 34,
         "CharacterTeamName" : "Keqing",
-        "CharacterTeamNameImage" : "/images/Characters/Keqing.webp",
+        "CharacterTeamNameImage" : "Keqing",
         "CharacterUrl": "/keqing",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 35,
         "CharacterTeamName" : "Kirara",
-        "CharacterTeamNameImage" : "/images/Characters/Kirara.webp",
+        "CharacterTeamNameImage" : "Kirara",
         "CharacterUrl": "/kirara",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 36,
         "CharacterTeamName" : "Klee",
-        "CharacterTeamNameImage" : "/images/Characters/Klee.webp",
+        "CharacterTeamNameImage" : "Klee",
         "CharacterUrl": "/klee",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 37,
         "CharacterTeamName" : "Kujou Sara",
-        "CharacterTeamNameImage" : "/images/Characters/Kujou_Sara.webp",
+        "CharacterTeamNameImage" : "Kujou_Sara",
         "CharacterUrl": "/kujou-sara",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 38,
         "CharacterTeamName" : "Kuki Shinobu",
-        "CharacterTeamNameImage" : "/images/Characters/Kuki_Shinobu.webp",
+        "CharacterTeamNameImage" : "Kuki_Shinobu",
         "CharacterUrl": "/kuki-shinobu",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 39,
         "CharacterTeamName" : "Layla",
-        "CharacterTeamNameImage" : "/images/Characters/Layla.webp",
+        "CharacterTeamNameImage" : "Layla",
         "CharacterUrl": "/layla",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 40,
         "CharacterTeamName" : "Lisa",
-        "CharacterTeamNameImage" : "/images/Characters/Lisa.webp",
+        "CharacterTeamNameImage" : "Lisa",
         "CharacterUrl": "/lisa",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 41,
         "CharacterTeamName" : "Lynette",
-        "CharacterTeamNameImage" : "/images/Characters/Lynette.webp",
+        "CharacterTeamNameImage" : "Lynette",
         "CharacterUrl": "/lynette",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 42,
         "CharacterTeamName" : "Lyney",
-        "CharacterTeamNameImage" : "/images/Characters/Lyney.webp",
+        "CharacterTeamNameImage" : "Lyney",
         "CharacterUrl": "/lyney",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 43,
         "CharacterTeamName" : "Mika",
-        "CharacterTeamNameImage" : "/images/Characters/Mika.webp",
+        "CharacterTeamNameImage" : "Mika",
         "CharacterUrl": "/mika",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 44,
         "CharacterTeamName" : "Mona",
-        "CharacterTeamNameImage" : "/images/Characters/Mona.webp",
+        "CharacterTeamNameImage" : "Mona",
         "CharacterUrl": "/mona",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 45,
         "CharacterTeamName" : "Nahida",
-        "CharacterTeamNameImage" : "/images/Characters/Nahida.webp",
+        "CharacterTeamNameImage" : "Nahida",
         "CharacterUrl": "/nahida",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 46,
         "CharacterTeamName" : "Neuvillette",
-        "CharacterTeamNameImage" : "/images/Characters/Neuvillette.webp",
+        "CharacterTeamNameImage" : "Neuvillette",
         "CharacterUrl": "/neuvillette",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 47,
         "CharacterTeamName" : "Nilou",
-        "CharacterTeamNameImage" : "/images/Characters/Nilou.webp",
+        "CharacterTeamNameImage" : "Nilou",
         "CharacterUrl": "/nilou",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 48,
         "CharacterTeamName" : "Ningguang",
-        "CharacterTeamNameImage" : "/images/Characters/Ningguang.webp",
+        "CharacterTeamNameImage" : "Ningguang",
         "CharacterUrl": "/ningguang",
-        "CharacterTeamElement": "geo"
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 49,
         "CharacterTeamName" : "Noelle",
-        "CharacterTeamNameImage" : "/images/Characters/Noelle.webp",
+        "CharacterTeamNameImage" : "Noelle",
         "CharacterUrl": "/noelle",
-        "CharacterTeamElement": "geo"
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 50,
         "CharacterTeamName" : "Qiqi",
-        "CharacterTeamNameImage" : "/images/Characters/Qiqi.webp",
+        "CharacterTeamNameImage" : "Qiqi",
         "CharacterUrl": "/qiqi",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 51,
         "CharacterTeamName" : "Raiden",
-        "CharacterTeamNameImage" : "/images/Characters/Raiden_Shogun.webp",
+        "CharacterTeamNameImage" : "Raiden_Shogun",
         "CharacterUrl": "/raiden-shogun",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 52,
         "CharacterTeamName" : "Razor",
-        "CharacterTeamNameImage" : "/images/Characters/Razor.webp",
+        "CharacterTeamNameImage" : "Razor",
         "CharacterUrl": "/razor",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 53,
         "CharacterTeamName" : "Rosaria",
-        "CharacterTeamNameImage" : "/images/Characters/Rosaria.webp",
+        "CharacterTeamNameImage" : "Rosaria",
         "CharacterUrl": "/rosaria",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 54,
         "CharacterTeamName" : "Kokomi",
-        "CharacterTeamNameImage" : "/images/Characters/Sangonomiya_Kokomi.webp",
+        "CharacterTeamNameImage" : "Sangonomiya_Kokomi",
         "CharacterUrl": "/sangonomiya-kokomi",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 55,
         "CharacterTeamName" : "Sayu",
-        "CharacterTeamNameImage" : "/images/Characters/Sayu.webp",
+        "CharacterTeamNameImage" : "Sayu",
         "CharacterUrl": "/sayu",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 56,
         "CharacterTeamName" : "Shenhe",
-        "CharacterTeamNameImage" : "/images/Characters/Shenhe.webp",
+        "CharacterTeamNameImage" : "Shenhe",
         "CharacterUrl": "/shenhe",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 57,
         "CharacterTeamName" : "Heizou",
-        "CharacterTeamNameImage" : "/images/Characters/Heizou.webp",
+        "CharacterTeamNameImage" : "Shikanoin_Heizou",
         "CharacterUrl": "/shikanoin-heizou",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 58,
         "CharacterTeamName" : "Sucrose",
-        "CharacterTeamNameImage" : "/images/Characters/Sucrose.webp",
+        "CharacterTeamNameImage" : "Sucrose",
         "CharacterUrl": "/sucrose",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 59,
         "CharacterTeamName" : "Tartaglia",
-        "CharacterTeamNameImage" : "/images/Characters/Tartaglia.webp",
+        "CharacterTeamNameImage" : "Tartaglia",
         "CharacterUrl": "/tartaglia",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 60,
         "CharacterTeamName" : "Thoma",
-        "CharacterTeamNameImage" : "/images/Characters/Thoma.webp",
+        "CharacterTeamNameImage" : "Thoma",
         "CharacterUrl": "/thoma",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 61,
         "CharacterTeamName" : "Tighnari",
-        "CharacterTeamNameImage" : "/images/Characters/Tighnari.webp",
+        "CharacterTeamNameImage" : "Tighnari",
         "CharacterUrl": "/tighnari",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 62,
-        "CharacterTeamName" : "Viajante Anemo",
-        "CharacterTeamNameImage" : "/images/Characters/TravelerAnemo.webp",
+        "CharacterTeamName" : "Viajante",
+        "CharacterTeamNameImage" : "Traveler",
         "CharacterUrl": "/traveler-anemo",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 63,
-        "CharacterTeamName" : "Viajante Cryo",
-        "CharacterTeamNameImage" : "/images/Characters/Traveler2.webp",
+        "CharacterTeamName" : "Viajante",
+        "CharacterTeamNameImage" : "Traveler",
         "CharacterUrl": "/traveler-cryo",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 64,
-        "CharacterTeamName" : "Viajante Dendro",
-        "CharacterTeamNameImage" : "/images/Characters/Traveler2.webp",
+        "CharacterTeamName" : "Viajante",
+        "CharacterTeamNameImage" : "Traveler",
         "CharacterUrl": "/traveler-dendro",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 65,
-        "CharacterTeamName" : "Viajante Electro",
-        "CharacterTeamNameImage" : "/images/Characters/Traveler2.webp",
+        "CharacterTeamName" : "Viajante",
+        "CharacterTeamNameImage" : "Traveler",
         "CharacterUrl": "/traveler-electro",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 66,
-        "CharacterTeamName" : "Viajante Hydro",
-        "CharacterTeamNameImage" : "/images/Characters/Traveler2.webp",
+        "CharacterTeamName" : "Viajante",
+        "CharacterTeamNameImage" : "Traveler",
         "CharacterUrl": "/traveler-hydro",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 67,
         "CharacterTeamName" : "Venti",
-        "CharacterTeamNameImage" : "/images/Characters/Venti.webp",
+        "CharacterTeamNameImage" : "Venti",
         "CharacterUrl": "/venti",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 68,
         "CharacterTeamName" : "Wriothesley",
-        "CharacterTeamNameImage" : "/images/Characters/Wriothesley.webp",
+        "CharacterTeamNameImage" : "Wriothesley",
         "CharacterUrl": "/wriothesley",
-        "CharacterTeamElement": "cryo"
+        "CharacterTeamElement": "cryo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 69,
         "CharacterTeamName" : "Xiangling",
-        "CharacterTeamNameImage" : "/images/Characters/Xiangling.webp",
+        "CharacterTeamNameImage" : "Xiangling",
         "CharacterUrl": "/xiangling",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 70,
         "CharacterTeamName" : "Xianyun",
-        "CharacterTeamNameImage" : "/images/Characters/Xianyun.webp",
+        "CharacterTeamNameImage" : "Xianyun",
         "CharacterUrl": "/xianyun",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 71,
         "CharacterTeamName" : "Xiao",
-        "CharacterTeamNameImage" : "/images/Characters/Xiao.webp",
+        "CharacterTeamNameImage" : "Xiao",
         "CharacterUrl": "/xiao",
-        "CharacterTeamElement": "anemo"
+        "CharacterTeamElement": "anemo",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 72,
         "CharacterTeamName" : "Xingqiu",
-        "CharacterTeamNameImage" : "/images/Characters/Xingqiu.webp",
+        "CharacterTeamNameImage" : "Xingqiu",
         "CharacterUrl": "/xingqiu",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 73,
         "CharacterTeamName" : "Xinyan",
-        "CharacterTeamNameImage" : "/images/Characters/Xinyan.webp",
+        "CharacterTeamNameImage" : "Xinyan",
         "CharacterUrl": "/xinyan",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 74,
         "CharacterTeamName" : "Yae Miko",
-        "CharacterTeamNameImage" : "/images/Characters/Yae_Miko.webp",
+        "CharacterTeamNameImage" : "Yae_Miko",
         "CharacterUrl": "/yae-miko",
-        "CharacterTeamElement": "electro"
+        "CharacterTeamElement": "electro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 75,
         "CharacterTeamName" : "Yanfei",
-        "CharacterTeamNameImage" : "/images/Characters/Yanfei.webp",
+        "CharacterTeamNameImage" : "Yanfei",
         "CharacterUrl": "/yanfei",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 76,
         "CharacterTeamName" : "Yaoyao",
-        "CharacterTeamNameImage" : "/images/Characters/Yaoyao.webp",
+        "CharacterTeamNameImage" : "Yaoyao",
         "CharacterUrl": "/yaoyao",
-        "CharacterTeamElement": "dendro"
+        "CharacterTeamElement": "dendro",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 77,
         "CharacterTeamName" : "Yelan",
-        "CharacterTeamNameImage" : "/images/Characters/Yelan.webp",
+        "CharacterTeamNameImage" : "Yelan",
         "CharacterUrl": "/yelan",
-        "CharacterTeamElement": "hydro"
+        "CharacterTeamElement": "hydro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 78,
         "CharacterTeamName" : "Yoimiya",
-        "CharacterTeamNameImage" : "/images/Characters/Yoimiya.webp",
+        "CharacterTeamNameImage" : "Yoimiya",
         "CharacterUrl": "/yoimiya",
-        "CharacterTeamElement": "pyro"
+        "CharacterTeamElement": "pyro",
+        "CharacterRarity": "five-star"
     },
     {
         "id": 79,
         "CharacterTeamName" : "Yun Jin",
-        "CharacterTeamNameImage" : "/images/Characters/Yun_Jin.webp",
+        "CharacterTeamNameImage" : "Yun_Jin",
         "CharacterUrl": "/yun-jin",
-        "CharacterTeamElement": "geo"
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "four-star"
     },
     {
         "id": 80,
         "CharacterTeamName" : "Zhongli",
-        "CharacterTeamNameImage" : "/images/Characters/Zhongli.webp",
+        "CharacterTeamNameImage" : "Zhongli",
         "CharacterUrl": "/zhongli",
-        "CharacterTeamElement": "geo"
+        "CharacterTeamElement": "geo",
+        "CharacterRarity": "five-star"
     }
     ]

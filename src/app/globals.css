@@ -30,6 +30,9 @@ body {
 #dendro {
     --dest: #92e978;
 }
+#cryo {
+    --dest: #b0e0f3;
+}
 main {
     max-width: 1050px;
     margin: auto;
@@ -115,7 +118,7 @@ main {
 .ag-title p {
     line-height: 1.3em;
 }
-.characters-main h2, .character-section-main h3, #teams-section h3 {
+h2.title-character, .character-section-main h3, #teams-section h3 {
     color: white;
     margin-bottom: 10px;
     border-left: 3px solid var(--dest);
@@ -305,7 +308,7 @@ h1 {
     display: inline-block;
     text-align:center;
     font-weight: bold;
-    font-size: min(10px, 4.5vw);
+    font-size: min(12px, 3.2vw);
     letter-spacing: normal;
     padding: 10px 0px;
     border-radius: 5px;
@@ -391,8 +394,8 @@ h1 {
     color: white;
 }
 .character-team-card:hover {
-    opacity: 0.6;
-    transition: .2s;
+    opacity: 0.75;
+    transition: .1s;
 }
 .character-team-card p {
     text-transform: uppercase;
@@ -416,10 +419,86 @@ h1 {
 .none{
     display: none;
 }
-@media only screen and (max-width: 820px) {
-    main {
-        margin: 0px 10px;
-    } 
+/*
+#home-page-characters-grid a:nth-of-type(13) img:first-of-type, #home-page-characters-grid a:nth-of-type(11) img:first-of-type, #home-page-characters-grid a:nth-of-type(16) img:first-of-type, #home-page-characters-grid a:nth-of-type(29) img:first-of-type, #home-page-characters-grid a:nth-of-type(69) img:first-of-type, #home-page-characters-grid a:nth-of-type(53) img:first-of-type {
+    margin-left:-50px ;
+}
+#home-page-characters-grid a:nth-of-type(17) img:first-of-type, #home-page-characters-grid a:nth-of-type(24) img:first-of-type, #home-page-characters-grid a:nth-of-type(75) img:first-of-type, #home-page-characters-grid a:nth-of-type(71) img:first-of-type, #home-page-characters-grid a:nth-of-type(61) img:first-of-type {
+    margin-left:-20px ;
+}*/
+#home-page-characters-grid {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    gap: 20px;
+    border-radius: 5px;
+}
+#home-page-characters-grid a {
+    background-size: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 120px;
+    max-height: 330px;
+}
+#card-desc {
+    position: absolute;
+    padding-top: 10px;
+    width:100%;
+    background: #0000008e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+}
+#home-page-characters-grid a img:first-of-type {
+    margin-top: -28px;
+    border-radius: 5px;
+}
+#home-page-characters-grid h2 {
+    font-size: min(18px, 4.5vw);
+    font-weight: 600;
+    letter-spacing: .3px;
+}/*
+#a-arrows {
+    margin-bottom: 15px;
+}*/
+.elements {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    z-index: 1;
+}
+#element-background {
+    position: absolute;
+    top: -60px;
+    left: -5px;
+    height: 120px;
+    width: 50px;
+    background: #0000008e;
+    transform: rotate(45deg);
+}
+#home-page-characters-grid hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.644);
+}
+.four-star{
+    background-image: linear-gradient(135deg, #5b5381, #b788ca);
+}
+.four-star svg:last-of-type{
+    display: none;
+}
+.five-star{
+    background-image: linear-gradient(135deg, #6b5453, #bb9656);
+}
+#home-page-characters-grid a img:nth-of-type(1){
+    height:auto;
+    max-width:120px;
 }
 @media only screen and (min-width: 706px) {
     .weapons-artefacts-section p {
@@ -459,11 +538,18 @@ h1 {
         width: 18vw;
         max-width: 100px;
     }
-}
-@media only screen and (max-width: 330px) {
-    #mobile-links {
+    #home-page-characters-grid {
+        grid-template-columns: repeat(7, minmax(0, 1fr));
         gap: 10px;
-        padding: 15px 10px;
+    }
+}
+@media only screen and (max-width: 820px) {
+    main {
+        margin: 10px;
+        margin-top: 70px;
+    }
+    #home-page-characters-grid {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
     }
 }
 @media only screen and (max-width: 300px) {
@@ -480,5 +566,34 @@ h1 {
 @media only screen and (max-width: 705px) {
     .weapons-artefacts-section {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    #home-page-characters-grid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+@media only screen and (max-width: 599px) {
+    #home-page-characters-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+@media only screen and (max-width: 479px) {
+    #home-page-characters-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #mobile-links {
+        gap: 10px;
+        padding: 15px 10px;
+    }
+    #home-page-characters-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    #home-page-characters-grid a {
+        max-width:none;
+    }
+    #home-page-characters-grid a img:nth-of-type(1){
+        max-width: 140px;
     }
 }

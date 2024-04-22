@@ -1,22 +1,70 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import Link from "next/link"
+import CharacterCard from "@/components/CharacterCard"
+import CD from "@/database/CharactersData.json"
+import { Metadata } from "next"
 
+
+export async function generateMetadata():Promise<Metadata> {
+  return {
+      title: "Genshin Impact Lista de Personagens | Genshin Build",
+      description: "Saiba as melhores Builds, Times e TierList do seu personagem hoje em Genshin Impact. Fique por dentro de todas as atualizações do jogo.",
+      openGraph: {
+          images: "/images/GenshinBuild.png",
+          url: "https://genshinbuild.com/"
+      }
+  }
+}
+
+
+  
+  const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": " Melhores Builds e Times - Genshin Impact",
+      "description": "Saiba as melhores Builds, Times e TierList do seu personagem hoje em Genshin Impact. Fique por dentro de todas as atualizações do jogo.",
+      "url": "https://genshinbuild.com/",
+      "image": "/images/GenshinBuild.png",
+      "author": [{
+          "@type": "Person",
+          "name": "Smk",
+          "url": "https://github.com/SamuelLJG"
+        }
+      ]
+  }
     export default function CharacterBuild({ params }: {
       params: { id: string }
   }) {
       return <>
-      <body>
 
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+        <link rel="canonical" href="https://genshinbuild.com/" />
+        <meta property="og:type" content="website" />
       <Header/>
-          <h1>Página Home</h1>
+      <br />
+        <main className="characters-main">
+        <br />
+        <h1>Genshin Impact Lista de Personagens</h1>
           <br />
-          <Link href='/albedo'>ALBEDO</Link>
           <br />
-          <br />
-          <Link href='/alhaitham'>ALHAITHAM</Link>
+          <section id="home-page-characters-grid">
+            {
+             CD.map( (item:any,id:any)  => {
+                  return (
+                      <CharacterCard
+                      key={id}
+                      CharacterTeamName={item.CharacterTeamName}
+                      CharacterTeamNameImage={item.CharacterTeamNameImage}
+                      CharacterUrl={item.CharacterUrl}
+                      CharacterTeamElement={item.CharacterTeamElement}
+                      CharacterRarity={item.CharacterRarity}
+                      />
+                  )
+              })
+                    }
+          </section>
+        </main>
         <Footer/>
-      </body>
       </>
   }
 
