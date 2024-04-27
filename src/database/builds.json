@@ -28,7 +28,7 @@
         },
         {
             "id": 1,
-            "characterbackground": "",
+            "characterbackground": "/images/FullQuality/Wish_Alhaitham.webp",
             "MainElement": "dendro",
             "EmblemImage": "/images/We/Emblema_Sumeru.webp",
             "EmblemAlt": "Emblema de Sumeru",
