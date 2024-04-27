@@ -11,6 +11,7 @@ export default function Characters(props:any) {
                     priority={true}
                     width={800}
                     height={800}
+                    quality={50}
                     src={props.characterbackground}
                     alt={props.CharacterName}
                     title={props.CharacterName}
@@ -67,7 +68,6 @@ export default function Characters(props:any) {
             <h2 className="title-character">{props.BuildTitle}</h2>
             <p>{props.BuildDescription}</p>
             <br />
-            <div className="ads"></div>
             <br />
             <h3>{props.CharacterName} Melhor Arma</h3>
             <p>{props.BestWeaponDescription}</p>

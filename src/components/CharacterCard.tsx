@@ -1,20 +1,21 @@
+
 import Image from "next/image"
-
 import Link from "next/link"
-
+//className={menuOpen ? "block" : "none" }
 export default function CharacterCard(props:any) {
     return <> 
-    <Link href={props.CharacterUrl} className={`character-team-card ${props.CharacterRarity}`}>
+    <Link href={props.CharacterUrl} className={ `character-team-card ${props.CharacterRarity}`}>
         <Image
         width={140}
         height={448}
         quality={20}
+        loading="eager"
         id={props.CharacterTeamName}
         className={props.CharacterTeamElement}
         src={`/images/Characters/${props.CharacterTeamNameImage}_Avatar.webp`}
         alt={props.CharacterTeamName}
         title={props.CharacterTeamName}
-        /><Image className="elements" width={32} height={32} src={`/images/We/element_${props.CharacterTeamElement}.webp`} alt={`elemento ${props.CharacterTeamElement}`} title={`elemento ${props.CharacterTeamElement}`} />
+        /><Image loading="eager" className="elements" width={32} height={32} src={`/images/We/element_${props.CharacterTeamElement}.webp`} alt={`elemento ${props.CharacterTeamElement}`} title={`elemento ${props.CharacterTeamElement}`} />
         <div id="element-background"></div>
         
         

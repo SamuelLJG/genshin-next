@@ -500,6 +500,45 @@ h1 {
     height:auto;
     max-width:120px;
 }
+#characters-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    border-radius: 4px;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 1px 6px;
+}
+#characters-filter button:hover {
+    cursor: pointer;
+}
+#characters-filter button {
+    background: none;
+    border: 0;
+}
+#elements-filter, #weapons-filter {
+    display: flex;
+    gap: 10px;
+}
+#elements-filter img {
+    height: 25px;
+    width: 25px;
+}
+#weapons-filter img {
+    height: 30px;
+    width: 30px;
+}
+#elements-filter button, #weapons-filter button {
+    background: none;
+    border: 0;
+    margin-bottom: -5px;
+}
+.vertical-hr{
+    width:1px;
+    height:30px;
+    background:rgb(92, 92, 92)
+}
 @media only screen and (min-width: 706px) {
     .weapons-artefacts-section p {
         max-height: 130px;

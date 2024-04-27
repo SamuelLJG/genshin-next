@@ -1,8 +1,9 @@
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
 import CharacterCard from "@/components/CharacterCard"
-import CD from "@/database/CharactersData.json"
+import CD from "@/database/CharactersListData.json"
 import { Metadata } from "next"
+import FilterCharacters from "@/components/FilterCharacters"
 
 
 export async function generateMetadata():Promise<Metadata> {
@@ -42,10 +43,10 @@ export async function generateMetadata():Promise<Metadata> {
         <meta property="og:type" content="website" />
       <Header/>
       <br />
-        <main className="characters-main">
-        <br />
+        <main className="characters-main" style={{padding:'30px'}}>
         <h1>Genshin Impact Lista de Personagens</h1>
           <br />
+          <FilterCharacters />
           <br />
           <section id="home-page-characters-grid">
             {
@@ -58,6 +59,7 @@ export async function generateMetadata():Promise<Metadata> {
                       CharacterUrl={item.CharacterUrl}
                       CharacterTeamElement={item.CharacterTeamElement}
                       CharacterRarity={item.CharacterRarity}
+                      CharacterRarity2={item.CharacterRarity2}
                       />
                   )
               })
